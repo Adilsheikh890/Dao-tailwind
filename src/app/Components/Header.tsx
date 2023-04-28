@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div className="items-center flex gap-5  w-full pt-4 pb-3">
 
-        <div className=" md:pl-20 w-2/4 ">
+        <div className=" md:pl-20  w-2/4 ">
           
             <Image src="/logos.png" alt="logo" width={100} height={100} />
         </div>
@@ -30,7 +30,7 @@ export default function Header() {
             <IoIosArrowDown className="pt-2" size={24}/>
             </span>
 
-            <div className="absolute   hover:hidden group-focus:block top-full  w-60  shadow-md mt-1 text-white  bg-teal-600  rounded  gap-5">
+            <div className="absolute hover:hidden group-focus:block top-full  w-60  shadow-md mt-1 text-white  bg-teal-600  rounded  gap-5">
               <ul className="text-left border-rounded mt-2 mb-2 space-x-2">
                 <li>
                   
