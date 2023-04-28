@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 import {IoIosArrowDown} from'react-icons/Io';
@@ -7,11 +8,12 @@ export default function Header() {
   return (
     <div className="items-center flex gap-5  w-full pt-4 pb-3">
 
-        <div className="pl-10 w-2/4 ">
-            <img src="/logos.png" alt="logo" width={100} height={100} />
+        <div className=" md:pl-20 w-2/4 ">
+          
+            <Image src="/logos.png" alt="logo" width={100} height={100} />
         </div>
 
-        <div className=" pl-80 ">
+        <div className=" lg:pl-80">
           <ul>
             <li>
               <Link href="/Main"  className="font-semibold text-lg">Home</Link>
