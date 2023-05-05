@@ -7,8 +7,7 @@ export default function page() {
    <div>
      <div className="text-center hover:text-white text-black pt-10 bg-yellow-500 h-77 lg:p-20"> 
  <h1 className="font-extrabold text-4xl p-5 ">BLOCKCHAIN SPECIALIST</h1> 
- <p className="pt-4 font-bold text-center p-5  ">A ONE YEAR BLOCKCHAIN PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF BLOCKCHAIN, FINTECH AND SMART CONTRACTS
-.</p>
+ <p className="pt-4 font-bold text-center p-5  ">A ONE YEAR BLOCKCHAIN PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF BLOCKCHAIN FINTECH AND SMART CONTRACTS</p>
  </div> 
  
  {/* second */}
