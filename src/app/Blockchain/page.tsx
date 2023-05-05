@@ -16,7 +16,7 @@ export default function page() {
  <div className="flex gap-2  md:flex-row flex-col   pt-10 ">
         <Image src="/bit.png" alt='logo' width={600}  height={600} className="md:pl-40"></Image>
         <div className="  md:pl-40 md:pr-40 md:w-1/2 ">
-        <h1 className=" pt-5 font-bold text-2xl p-5  ">| What's a cryptocurrency?</h1>
+        <h1 className=" pt-5 font-bold text-2xl p-5  ">Whats a cryptocurrency</h1>
         <p className="pt-3 text-lg p-5 ">A cryptocurrency is just like a digital form of cash. You can use it to pay friends for your share of the bar tab, buy that new pair of socks you've been eyeing up 👀, or book flights ✈️ and hotels 🏨 for your next holiday. Because cryptocurrency is digital, it can also be sent to friends and family anywhere in the world..
        
          </p>
@@ -31,8 +31,7 @@ export default function page() {
         <div className=" md:pl-40  pt-10 md:w-1/2 p-5 ">
         <h1 className=" pt-5 font-bold text-2xl ">| What Is ERC-20? </h1>
         <p className="pt-3 text-lg">ERC-20 is the technical standard for fungible tokens created using the Ethereum blockchain. A fungible token is interchangeable with another token—where the well-known non-fungible tokens (NFTs) are not interchangeable.
-
-ERC-20 allows developers to create smart-contract-enabled tokens that can be used with other products and services. These tokens are a representation of an asset, right, ownership, access, cryptocurrency, or anything else that is not unique in and of itself but can be transferred.
+        ERC-20 allows developers to create smart-contract-enabled tokens that can be used with other products and services. These tokens are a representation of an asset, right, ownership, access, cryptocurrency, or anything else that is not unique in and of itself but can be transferred.
          </p>
          </div>
 
