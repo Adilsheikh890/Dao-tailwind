@@ -1,6 +1,7 @@
 import React from 'react'
-
 import Image from 'next/image';
+
+
 
 export default function page() {
   return (
@@ -66,14 +67,3 @@ export default function page() {
          </>
   )
 }
-{/* <div className="  hover:animate-bounce shadow-2xl p-4 rounded-lg text-center bg-teal-400 hover:text-black text-white ">
-      
-<h2 className="text-2xl font-bold p-5"> Web 3.0 and Metaverse</h2>
-<p className="p-5">The Future of the Web is Web 3.0, Metaverse, and Edge Computing. Panaverse DAO is a movement to spread these technolgies globally. It is community of Web 3 and Metaverse developers,</p>
- </div> */}
-{/* <div className=" hover:animate-bounce shadow-2xl rounded-lg p-4 text-center bg-pink-500 hover:text-black  text-white ">
-          
-          <h2 className="font-bold p-5 text-2xl">Cloud Computing</h2>
-          <p className="p-5">A ONE YEAR CLOUD COMPUTING PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS.
-          GETTING PAKISTAN READY FOR THE NEW ERA OF MICROSERVICES AND MULTI-CLOUD NATIVE COMPUTING.</p>
-           </div> */}

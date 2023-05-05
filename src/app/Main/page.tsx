@@ -1,5 +1,4 @@
 import React from 'react'
-import {MdSmartToy} from'react-icons/Md';
 import Image from 'next/image';
 
 export default function page() {
