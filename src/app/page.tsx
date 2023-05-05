@@ -1,7 +1,5 @@
 import Image from 'next/image';
 import Header from './Components/Header';
-//import Main from './Components/Main';
-import {MdSmartToy} from'react-icons/Md';
 import React from 'react'
 
 
