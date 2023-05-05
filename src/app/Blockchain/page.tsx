@@ -10,7 +10,7 @@ export default function page() {
  <p className="pt-4 font-bold text-center p-5  ">A ONE YEAR BLOCKCHAIN PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS GETTING PAKISTAN READY FOR THE NEW ERA OF BLOCKCHAIN FINTECH AND SMART CONTRACTS</p>
  </div> 
  
- {/* second */}
+
 
  <div className="flex gap-2  md:flex-row flex-col   pt-10 ">
         <Image src="/bit.png" alt='logo' width={600}  height={600} className="md:pl-40"></Image>
