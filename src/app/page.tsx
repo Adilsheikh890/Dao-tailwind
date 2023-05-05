@@ -33,14 +33,14 @@ export default function Home() {
        {/* first */}
    <div className="max-w-[1100px]   mx-auto py-[70px] p-5 grid lg:grid-col-4 sm:grid-cols-2 gap-6">
     {/* first */}
-   <Image src="/Ai.jpg" alt='images' width={580} height={680} className='rounded-2xl' />
+   <Image src="/Ai.jpg" alt='images' width={580} height={580} className='rounded-2xl' />
    
    {/* second */}
-   <Image src="/mwta.jpg" alt='images' width={580} height={680} className='rounded-2xl' />
+   <Image src="/mwta.jpg" alt='images' width={580} height={580} className='rounded-2xl' />
      {/* third */}
-     <Image src="/images.jpg" alt='images' width={680} height={680} className='rounded-2xl' />
+     <Image src="/images.jpg" alt='images' width={550} height={580} className='rounded-2xl' />
      {/* four */}
-     <Image src="/cli.jpg" alt='images' width={680} height={680}  className='rounded-2xl ' />
+     <Image src="/cli.jpg" alt='images' width={540} height={580}  className='rounded-2xl ' />
      
     </div>
 
