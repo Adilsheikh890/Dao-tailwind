@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function page() {
   return (
     <>
-    <div className=" text-center pt-20 bg-[url('https://img.freepik.com/free-vector/technology-wire-mesh-network-connection-digital-background_1017-28407.jpg')] bg-fixed md:px-44 py-40 bg-cover rounded-b-[15%] lg:text-center">
+    <div className=" text-center pt-40 bg-[url('https://img.freepik.com/free-vector/technology-wire-mesh-network-connection-digital-background_1017-28407.jpg')] bg-fixed md:px-44 py-40 bg-cover rounded-b-[15%] lg:text-center">
         
             <h3 className="text-2xl md:text-4xl font-bold  text-yellow-400 p-5">Earn as you Learn Program</h3>
             <h1 className="md:text-7xl text-3xl font-bold text-yellow-400 p-5">Prepare yourself for the  Next Generation  of Internet with</h1>
@@ -23,16 +23,17 @@ export default function page() {
        </div>
 
            {/* first */}
-       <div className="max-w-[1100px]   mx-auto py-[70px] p-5 grid lg:grid-col-4 sm:grid-cols-2 gap-6">
+       <div className="max-w-[1200px]   mx-auto py-[70px] p-5 grid lg:grid-col-4 sm:grid-cols-2 gap-6">
         {/* first */}
-       <Image src="/Ai.jpg" alt='images' width={580} height={680} className='rounded-2xl' />
+       <Image src="/Ai.jpg" alt='images' width={580} height={580} className='rounded-2xl' />
        
        {/* second */}
-       <Image src="/mwta.jpg" alt='images' width={580} height={680} className='rounded-2xl' />
+       <Image src="/mwta.jpg" alt='images' width={580} height={580} className='rounded-2xl' />
          {/* third */}
-         <Image src="/images.jpg" alt='images' width={680} height={680} className='rounded-2xl' />
+         <Image src="/images.jpg" alt='images' width={680} height={580} className='rounded-2xl' />
          {/* four */}
-         <Image src="/cli.jpg" alt='images' width={680} height={680} className='rounded-2xl' />
+         <Image src="/cli.jpg" alt='images' width={680} height={580} className='rounded-2xl' />
+         
          
         </div>
 
