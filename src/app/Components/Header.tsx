@@ -14,9 +14,9 @@ export default function Header() {
   return (
     <div className="items-center flex gap-5 bg-white shadow-lg sticky top-0 w-full pt-4 pb-3">
 
-        <div className=" md:pl-20  w-2/4  ">
+        <div className=" md:pl-20   w-2/4  ">
           
-            <Image src="/logos.png" alt="logo" width={100} height={100} />
+            <Image src="/logos.png" alt="logo" width={100}  height={100} />
         </div>
 
         <div className=" lg:pl-80">
@@ -47,36 +47,3 @@ export default function Header() {
   )
 }
 
-// // <div>
-// <button className="flex relative justify-center bg-white  font-sans   text-black 
-// rounded  group " id="btn">
-//   <p className="font-semibold text-lg">Courses</p>
-
-//   <span className=" hover:group-focus:block ">
-//   <IoIosArrowDown className="pt-2" size={24}/>
-//   </span>
-
-//   <div className="absolute hover:hidden group-focus:block top-full right-2 w-60  shadow-lg mt-1 text-white  bg-teal-600  rounded  gap-5">
-//     <ul className="text-left border-rounded text-center mt-2 mb-2 space-x-2" id="list">
-//       <li className="p-1">
-        
-//         <Link href="./Meta" className="px-4 py-1 border-b hover:bg-teal-500  " >Web 3.0 Metaverse</Link>
-//         </li>
-//         < li className="p-1">
-//         <Link href="./Artifical" className="px-4 py-1 border-b hover:bg-teal-500" >Artical Intelligence</Link>
-//         </li>
-//         <li className="p-1">
-//         <Link href="./Computing"  className="px-4 py-1 border-b hover:bg-teal-500">Cloud Computing</Link>
-//         </li>
-//         <li className="p-1">
-        
-//         <Link href="./Blockchain" className="px-4 py-1 border-b hover:bg-teal-500" >Block Chain</Link>
-        
-//         </li>
-        
-      
-      
-//     </ul>
-    
-//   </div>
-// </button>

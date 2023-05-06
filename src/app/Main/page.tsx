@@ -15,7 +15,7 @@ export default function page() {
 
     
        <div className=" text-center pt-5 items-center">
-             <h1 className="font-bold text-4xl pt-10 hover:animate-bounce duration-75">Our Courses!
+             <h1 className="font-bold text-4xl pt-10 animate-bounce duration-300">Our Courses!
              <hr className='width={25%} pt-7'/>
              </h1>
           
@@ -39,8 +39,8 @@ export default function page() {
         <div className="flex gap-2  md:flex-row flex-col   ">
         <Image src="/logo3.webp" alt='logo' width={600}  height={600} className="md:pl-40 p-5"></Image>
         <div className="  md:pl-40 md:pr-40 md:w-1/2 ">
-        <h1 className=" pt-5 font-bold text-2xl p-5 ">|Program Of Studies</h1>
-        <p className="pt-3 text-lg p-5">This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.
+        <h1 className=" pt-5 font-bold text-2xl p-10 ">|Program Of Studies</h1>
+        <p className="pt-3 text-lg p-10">This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.
          </p>
          </div>
         </div>
@@ -51,8 +51,8 @@ export default function page() {
         
 
         <div className=" md:pl-40  pt-10 md:w-1/2 ">
-        <h1 className=" pt-5 font-bold text-2xl  p-5">| Bootcamp 2023</h1>
-        <p className="pt-3 text-lg p-5">Modern Full Stack Serverless Multi-Tenant SaaS App and API Developer
+        <h1 className=" pt-5 font-bold text-2xl  p-10">| Bootcamp 2023</h1>
+        <p className="pt-3 text-lg p-10">Modern Full Stack Serverless Multi-Tenant SaaS App and API Developer
         All Bootcampers are required to record a video presentation which explains what a “Modern Full Stack Serverless Multi-Tenant SaaS App and API Developer ” means, what kind of Apps and API they will build, what technologies they may use to build these apps and APIs, and what will be the benefits and use cases of these apps and APIs.
          </p>
          </div>
@@ -64,14 +64,3 @@ export default function page() {
          </>
   )
 }
-{/* <div className="  hover:animate-bounce shadow-2xl p-4 rounded-lg text-center bg-teal-400 hover:text-black text-white ">
-      
-<h2 className="text-2xl font-bold p-5"> Web 3.0 and Metaverse</h2>
-<p className="p-5">The Future of the Web is Web 3.0, Metaverse, and Edge Computing. Panaverse DAO is a movement to spread these technolgies globally. It is community of Web 3 and Metaverse developers,</p>
- </div> */}
-{/* <div className=" hover:animate-bounce shadow-2xl rounded-lg p-4 text-center bg-pink-500 hover:text-black  text-white ">
-          
-          <h2 className="font-bold p-5 text-2xl">Cloud Computing</h2>
-          <p className="p-5">A ONE YEAR CLOUD COMPUTING PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS.
-          GETTING PAKISTAN READY FOR THE NEW ERA OF MICROSERVICES AND MULTI-CLOUD NATIVE COMPUTING.</p>
-           </div> */}
