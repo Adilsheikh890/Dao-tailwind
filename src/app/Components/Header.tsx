@@ -12,14 +12,14 @@ export default function Header() {
   
   const [dropDown,setDropDown]=useState(false);
   return (
-    <div className="items-center flex gap-5 bg-white shadow-lg sticky top-0 w-full pt-4 pb-3">
+    <div className="items-center flex md:gap-4  gap-3 bg-white shadow-lg sticky top-0 w-full pt-4 pb-3">
 
-        <div className=" md:pl-20   w-2/4  ">
+        <div className=" lg:pl-20 px-3   w-2/4  ">
           
             <Image src="/logos.png" alt="logo" width={100}  height={100} />
         </div>
 
-        <div className=" lg:pl-80">
+        <div className=" lg:pl-80 md:pl-80">
           <ul>
             <li>
               <Link href="/Main"  className="font-semibold text-lg">Home</Link>

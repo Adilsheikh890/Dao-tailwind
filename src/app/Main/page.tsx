@@ -31,14 +31,14 @@ export default function page() {
          {/* third */}
          <Image src="/images.jpg" alt='images' width={680} height={680} className='rounded-2xl' />
          {/* four */}
-         <Image src="/cli.jpg" alt='images' width={680} height={680} className='rounded-2xl' />
+         <Image src="/cli.jpg" alt='images' width={680} height={380} className='rounded-2xl' />
          
         </div>
 
         {/* second part */}
         <div className="flex gap-2  md:flex-row flex-col   ">
         <Image src="/logo3.webp" alt='logo' width={600}  height={600} className="md:pl-40 p-5"></Image>
-        <div className="  md:pl-40 md:pr-40 md:w-1/2 ">
+        <div className="  md:pl-20 md:pr-40 md:w-1/2 ">
         <h1 className=" pt-5 font-bold text-2xl p-10 ">|Program Of Studies</h1>
         <p className="pt-3 text-lg p-10">This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.
          </p>
@@ -50,7 +50,7 @@ export default function page() {
 
         
 
-        <div className=" md:pl-40  pt-10 md:w-1/2 ">
+        <div className=" md:pl-40 md:p-20    pt-10 md:w-1/2 ">
         <h1 className=" pt-5 font-bold text-2xl  p-10">| Bootcamp 2023</h1>
         <p className="pt-3 text-lg p-10">Modern Full Stack Serverless Multi-Tenant SaaS App and API Developer
         All Bootcampers are required to record a video presentation which explains what a “Modern Full Stack Serverless Multi-Tenant SaaS App and API Developer ” means, what kind of Apps and API they will build, what technologies they may use to build these apps and APIs, and what will be the benefits and use cases of these apps and APIs.
